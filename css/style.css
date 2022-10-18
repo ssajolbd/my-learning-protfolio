@@ -1,0 +1,27 @@
+body {
+  font-family: "Fuzzy Bubbles", cursive;
+}
+h1 {
+  font-size: 50px;
+}
+.name-title {
+  color: orangered;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 98%;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  font-weight: 500;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+}
