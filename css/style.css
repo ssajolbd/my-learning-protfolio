@@ -1,5 +1,6 @@
 body {
   font-family: "Fuzzy Bubbles", cursive;
+  margin: 0;
 }
 h1 {
   font-size: 50px;
@@ -15,13 +16,18 @@ section {
   padding-left: 2%;
 }
 .half-width img {
-  width: 98%;
+  padding-top: 2px;
+  width: 100%;
 }
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px 40px;
   border-radius: 5px;
   color: white;
+}
+.top-banner {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
 }
